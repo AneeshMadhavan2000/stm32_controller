@@ -393,12 +393,12 @@ int main(void)
  80004d6:	f44f 5140 	mov.w	r1, #12288	; 0x3000
  80004da:	4809      	ldr	r0, [pc, #36]	; (8000500 <main+0x3c>)
  80004dc:	f000 fc6c 	bl	8000db8 <HAL_GPIO_WritePin>
-	  HAL_Delay(1000);
- 80004e0:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+	  HAL_Delay(800);
+ 80004e0:	f44f 7048 	mov.w	r0, #800	; 0x320
  80004e4:	f000 f9c2 	bl	800086c <HAL_Delay>
-	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12|GPIO_PIN_13, GPIO_PIN_RESET);
+	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);
  80004e8:	2200      	movs	r2, #0
- 80004ea:	f44f 5140 	mov.w	r1, #12288	; 0x3000
+ 80004ea:	f44f 5180 	mov.w	r1, #4096	; 0x1000
  80004ee:	4804      	ldr	r0, [pc, #16]	; (8000500 <main+0x3c>)
  80004f0:	f000 fc62 	bl	8000db8 <HAL_GPIO_WritePin>
 	  HAL_Delay(1000);
