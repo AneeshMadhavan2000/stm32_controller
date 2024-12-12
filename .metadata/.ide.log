@@ -1227,3 +1227,8 @@
 2024-12-12 17:59:27,053 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
 2024-12-12 17:59:27,054 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
 2024-12-12 18:02:31,331 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-12-12 21:46:38,265 [INFO] Activator:176 - 
+
+
+2024-12-12 21:46:38,268 [INFO] Activator:177 - !SESSION log4j initialized
+2024-12-12 21:46:44,477 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 

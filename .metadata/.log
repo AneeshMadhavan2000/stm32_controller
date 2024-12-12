@@ -37,3 +37,25 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed: The applica
 
 !ENTRY org.eclipse.core.jobs 2 2 2024-12-12 18:02:31.310
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2024-12-12 21:46:09.308 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  C:\git_repo\LEDS_basic\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\git_repo\LEDS_basic\.project
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-12-12 21:46:18.835
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-12 21:46:37.960
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-12 21:46:37.968
+!MESSAGE Log4j2 initialized with config file C:\git_repo\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-12 21:46:45.685
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-12 21:46:50.238
+!MESSAGE Indexed 'LEDS_basic' (21 sources, 117 headers) in 4.36 sec: 10,872 declarations; 36,482 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.5%)
